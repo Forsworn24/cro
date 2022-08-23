@@ -54,6 +54,26 @@
   margin-bottom: 120px;
 }
 
+.ml-sm {
+  margin-left: 5px;
+}
+
+.ml-md {
+  margin-left: 10px;
+}
+
+.ml-lg {
+  margin-left: 30px;
+}
+
+.ml-xlg {
+  margin-left: 60px;
+}
+
+.ml-xxlg {
+  margin-left: 120px;
+}
+
 .p-sm {
   padding: 5px;
 }

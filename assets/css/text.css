@@ -5,7 +5,6 @@
 
 .text-sub-title {
   font-size: 2em;
-  text-shadow: 2px 2px 2px #000;
 }
 
 .text-ability-title {
@@ -42,11 +41,11 @@
 
 .text-contacts {
   font-size: 1.2em;
-  line-height: 4;
+  line-height: 2;
 }
 
 .text-rating {
-  font-size: 6em;
+  font-size: 4em;
   line-height: 1.5;
 }
 
@@ -56,7 +55,7 @@
 }
 
 .text-button {
-  font-size: 6em;
+  font-size: 7em;
   text-decoration: none;
 }
 
@@ -66,4 +65,8 @@
 
 .text-button:active {
   color: whitesmoke;
+}
+
+.t-left {
+  text-align: left;
 }
