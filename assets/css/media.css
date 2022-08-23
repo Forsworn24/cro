@@ -251,6 +251,12 @@
     width: 100%;
   }
 
+  .text-ability-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: left;
+  }
+
   .text-title-specialists {
     font-size: 2em;
   }
