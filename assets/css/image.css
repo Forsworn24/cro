@@ -1,0 +1,19 @@
+.img-ability {
+  height: 200px;
+  width: 200px;
+}
+
+.img-specialist {
+  border-radius: 20%;
+  border: 2px solid whitesmoke;
+  height: 300px;
+  max-width: 100%;
+  width: 300px;
+}
+
+.img-motivation {
+  border-radius: 20%;
+  border: 2px solid black;
+  max-width: 100%;
+  width: 250px;
+}

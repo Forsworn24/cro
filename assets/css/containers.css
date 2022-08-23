@@ -1,0 +1,28 @@
+.wrapper {
+  height: 100%;
+  margin: 0 auto;
+  max-width: 90%;
+  width: 1500px;
+}
+
+.main-container {
+  width: 100%;
+}
+
+.content-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+}
+
+.box-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
