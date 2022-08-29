@@ -1,8 +1,15 @@
-.banner {
+.parallax-banner {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll, fixed;
   background-position: 0 0%, center top;
   height: 500px;
   width: 100%;
+}
+
+@media (max-width: 550px) {
+
+  .parallax-banner {
+    height: 400px;
+  }
 }

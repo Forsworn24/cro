@@ -137,3 +137,27 @@
 .pr-lg {
   padding-right: 30px;
 }
+
+@media (min-width: 550px) and (max-width: 767px) {
+  .pt-xlg {
+    padding-top: 10px;
+  }
+
+  .mt-xxlg {
+    margin-top: 80px;
+  }
+  
+  .pl-lg-sm {
+    padding-left: 30px;
+  }
+}
+
+@media (max-width: 550px) {
+  .pt-xlg {
+    padding-top: 10px;
+  }
+
+  .mt-xxlg {
+    margin-top: 80px;
+  }
+}

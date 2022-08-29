@@ -1,61 +1,52 @@
-.text-title {
+.title-lg {
   font-size: 4em;
+}
+
+.title-md {
+  font-size: 3em;
+}
+
+.title-sm {
+  font-size: 2em;
+}
+
+.text-lg {
+  font-size: 2em;
+}
+
+.text-md {
+  font-size: 1.5em;
+}
+
+.text-sm {
+  font-size: 1em;
+}
+
+.t-bold {
+  font-weight: bold;
+}
+
+.t-shadow {
   text-shadow: 3px 3px 3px #000;
 }
 
-.text-sub-title {
-  font-size: 2em;
-}
-
-.text-ability-title {
-  font-size: 1.8em;
-  font-weight: bold;
+.t-left {
   text-align: left;
 }
 
-.text-ability {
-  font-size: 1.5em;
-  text-align: left;
-}
-
-.text-title-specialists {
-  font-size: 3em;
-  font-weight: bold;
-}
-
-.text-name-specialist {
-  font-size: 2em;
-  font-weight: bold;
-}
-
-.text-desc-specialist {
-  font-size: 1.6em;
-  line-height: 1.5;
-  text-align: left;
-}
-
-.text-contacts-title {
-  font-size: 2em;
-  line-height: 1.5;
-}
-
-.text-contacts {
-  font-size: 1.2em;
+.t-lh-lg {
   line-height: 2;
 }
 
-.text-rating {
-  font-size: 4em;
+.t-lh-md {
   line-height: 1.5;
 }
 
-.text-rating-desc {
-  font-size: 1em;
-  text-align: left;
+.t-button {
+  font-size: 7em;
 }
 
-.text-button {
-  font-size: 7em;
+.t-d-none {
   text-decoration: none;
 }
 
@@ -67,6 +58,94 @@
   color: whitesmoke;
 }
 
-.t-left {
-  text-align: left;
+@media (min-width: 992px) and (max-width: 1199px) {
+  .t-center {
+    text-align: center;
+  }
+
+  .text-md {
+    font-size: 1.2em;
+  }
+
+  .t-button {
+    font-size: 6em;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .t-center {
+    text-align: center;
+  }
+
+  .text-md {
+    font-size: 1em;
+  }
+
+  .title-sm {
+    font-size: 1.5em;
+  }
+
+  .t-button {
+    font-size: 5em;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 767px) {
+  .t-center {
+    text-align: center;
+  }
+
+  .t-sp-center {
+    text-align: center;
+  }
+  
+  .title-md {
+    font-size: 3em;
+  }
+  
+  .title-sm {
+    font-size: 1.5em;
+  }
+
+  .t-button {
+    font-size: 4em;
+  }
+}
+
+@media (max-width: 550px) {
+  .t-center {
+    text-align: center;
+  }
+
+  .t-sp-center {
+    text-align: center;
+  }
+  
+  .title-lg {
+    font-size: 2.5em;
+  }
+  
+  .title-md {
+    font-size: 1.8em;
+  }
+  
+  .title-sm {
+    font-size: 1em;
+  }
+
+  .pl-lg-sm {
+    padding-left: 30px;
+  }
+
+  .t-button {
+    font-size: 4em;
+  }
+
+  .text-lg {
+    font-size: 1.5em;
+  }
+
+  .text-md {
+    font-size: 1em;
+  }
 }

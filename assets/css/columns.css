@@ -21,3 +21,47 @@
 .col {
   width: 100%;
 }
+
+@media (min-width: 550px) and (max-width: 767px) {
+  .col-33 {
+    width: 100%;
+  }
+
+  .col-30 {
+    width: 100%;
+  }
+
+  .col-40 {
+    width: 100%;
+  }
+
+  .col-70 {
+    width: 100%;
+  }
+
+  .col-50 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 550px) {
+  .col-33 {
+    width: 100%;
+  }
+
+  .col-30 {
+    width: 100%;
+  }
+
+  .col-40 {
+    width: 100%;
+  }
+
+  .col-70 {
+    width: 100%;
+  }
+
+  .col-50 {
+    width: 100%;
+  }
+}
