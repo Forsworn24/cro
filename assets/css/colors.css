@@ -14,6 +14,10 @@ body {
   background-color: grey;
 }
 
+.bg-blue {
+  background-color: #93adf5;
+}
+
 .c-black {
   color: #101010;
 }

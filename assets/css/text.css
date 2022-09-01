@@ -6,6 +6,10 @@
   font-size: 3em;
 }
 
+.title-m {
+  font-size: 2.5em;
+}
+
 .title-sm {
   font-size: 2em;
 }
@@ -35,7 +39,7 @@
 }
 
 .t-lh-lg {
-  line-height: 2;
+  line-height: 2.3;
 }
 
 .t-lh-md {
@@ -43,7 +47,7 @@
 }
 
 .t-button {
-  font-size: 7em;
+  font-size: 4em;
 }
 
 .t-d-none {
@@ -59,10 +63,6 @@
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  .t-center {
-    text-align: center;
-  }
-
   .text-md {
     font-size: 1.2em;
   }
@@ -73,16 +73,12 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .t-center {
-    text-align: center;
-  }
-
   .text-md {
     font-size: 1em;
   }
 
   .title-sm {
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
 
   .t-button {
@@ -91,16 +87,16 @@
 }
 
 @media (min-width: 550px) and (max-width: 767px) {
-  .t-center {
-    text-align: center;
-  }
-
-  .t-sp-center {
+  .title-m {
     text-align: center;
   }
   
+  .title-lg {
+    font-size: 3.5em;
+  }
+
   .title-md {
-    font-size: 3em;
+    font-size: 2.5em;
   }
   
   .title-sm {
@@ -112,19 +108,16 @@
   }
 }
 
-@media (max-width: 550px) {
-  .t-center {
+@media (max-width: 550px) {  
+  .title-lg {
+    font-size: 2em;
+  }
+  
+  .title-m {
+    font-size: 2em;
     text-align: center;
   }
 
-  .t-sp-center {
-    text-align: center;
-  }
-  
-  .title-lg {
-    font-size: 2.5em;
-  }
-  
   .title-md {
     font-size: 1.8em;
   }
@@ -147,5 +140,9 @@
 
   .text-md {
     font-size: 1em;
+  }
+
+  .t-button {
+    font-size: 3em;
   }
 }
